@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Nunito", sans-serif;
+}
+
 header {
   padding: 0 10%;
   height: 12vh;
@@ -32,4 +36,47 @@ header ul {
 
 main {
   margin: 0 10%;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  font-weight: 700;
+  height: 30vh;
+  width: 40vw;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  section {
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    height: 80vh;
+    justify-content: space-around;
+  }
+}
+
+button {
+  background-color: #FCA60F;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+@media (max-width: 600px) {
+  button {
+    width: 50vw;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .coffee {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
