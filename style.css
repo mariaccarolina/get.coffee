@@ -30,15 +30,6 @@ header ul {
   }
 }
 
-.logo {
-  width: 15vw;
-}
-@media (max-width: 500px) {
-  .logo {
-    width: 40vw;
-  }
-}
-
 main {
   margin: 0 10%;
 }/*# sourceMappingURL=style.css.map */
